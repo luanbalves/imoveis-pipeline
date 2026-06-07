@@ -1,0 +1,11 @@
+# Scraping
+scrapy==2.11.2
+scrapy-user-agents==0.1.1
+Twisted==24.3.0
+
+# Storage
+boto3==1.34.69
+
+# Utilitários
+python-dotenv==1.0.1
+pandas==2.2.2

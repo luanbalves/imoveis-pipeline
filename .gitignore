@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+*.db
+*.duckdb
+.DS_Store
+venv/
+.venv/
+logs/
+scraper/.scrapy/
+dbt/target/
+dbt/dbt_packages/
+data/
+*.log
