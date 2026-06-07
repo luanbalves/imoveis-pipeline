@@ -6,6 +6,9 @@ Twisted==24.3.0
 # Storage
 boto3==1.34.69
 
+# Streaming
+kafka-python-ng==2.2.3
+
 # Utilitários
 python-dotenv==1.0.1
 pandas==2.2.2
