@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: gold_panorama_economico
+    description: "Panorama dos indicadores econômicos com interpretação para mercado imobiliário"
+    columns:
+      - name: serie_nome
+        tests:
+          - not_null
+          - unique
+
+  - name: gold_ranking_municipios
+    description: "Ranking de municípios por atratividade imobiliária"
+    columns:
+      - name: codigo_ibge
+        tests:
+          - not_null
+          - unique
+      - name: score_atratividade
+        tests:
+          - not_null

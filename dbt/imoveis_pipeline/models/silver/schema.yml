@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: silver_indicadores_economicos
+    description: "Séries econômicas do BCB com variações e tendências calculadas"
+    columns:
+      - name: serie_nome
+        tests:
+          - not_null
+      - name: data_ref
+        tests:
+          - not_null
+      - name: valor
+        tests:
+          - not_null
+      - name: tendencia_3m
+        tests:
+          - accepted_values:
+              values: ['alta', 'queda', 'estável']
+
+  - name: silver_municipios_enriquecidos
+    description: "Municípios brasileiros com dados geográficos e demográficos consolidados"
+    columns:
+      - name: codigo_ibge
+        tests:
+          - not_null
+          - unique
+      - name: uf
+        tests:
+          - not_null
