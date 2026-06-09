@@ -11,4 +11,5 @@ scraper/.scrapy/
 dbt/target/
 dbt/dbt_packages/
 data/
-*.log
+*.logml/models/*.pkl
+ml/output/
