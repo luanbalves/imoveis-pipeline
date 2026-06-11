@@ -13,3 +13,4 @@ dbt/dbt_packages/
 data/
 *.logml/models/*.pkl
 ml/output/
+data/*.duckdb

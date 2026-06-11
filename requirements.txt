@@ -1,3 +1,4 @@
+#Depndendo da versão do python algumas libs podem dar problema, indico usar a 3.12
 # Scraping
 scrapy==2.11.2
 scrapy-user-agents==0.1.1
@@ -20,6 +21,10 @@ dbt-duckdb==1.8.1
 # ML
 scikit-learn==1.4.2
 joblib==1.4.2
+
+# API
+fastapi==0.111.0
+uvicorn==0.29.0
 
 # Utilitários
 python-dotenv==1.0.1

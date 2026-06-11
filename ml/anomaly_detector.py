@@ -25,7 +25,7 @@ from dotenv import load_dotenv
 
 load_dotenv(Path(__file__).parent.parent / ".env")
 
-DB_PATH     = "/tmp/imoveis_pipeline.duckdb"
+DB_PATH = str(Path(__file__).parent.parent / "data" / "imoveis_pipeline.duckdb")
 MODELS_DIR  = Path(__file__).parent / "models"
 OUTPUT_DIR  = Path(__file__).parent / "output"
 
